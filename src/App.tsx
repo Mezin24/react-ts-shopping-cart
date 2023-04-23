@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useQuery } from 'react-query';
 
 import { Drawer, Grid, Badge, LinearProgress } from '@mui/material';

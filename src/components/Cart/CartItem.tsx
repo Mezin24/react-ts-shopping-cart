@@ -9,7 +9,7 @@ type Props = {
 };
 
 const CartItem = ({ item, addToCart, removeFromCart }: Props) => {
-  const { amount, category, description, id, image, price, title } = item;
+  const { amount, id, image, price, title } = item;
   return (
     <Wrapper>
       <div>
